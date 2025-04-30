@@ -1,0 +1,239 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">  
+    <title>FLOAREA SKIES</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <img src="img/logoS.png" alt="logo" class="Slogo">
+  <button class="language-switcher" 
+  data-en="index.html"
+  data-de="ge.html">
+  <img src="img/Elogo.png" alt="german flag" class="flag"></button>
+  </header>
+<!-- Блок главный -->
+    <section id="hero" class="scroll-hidden delay-1">
+        <div class="hero-text">
+            <h2>Exclusive Apartments In the heart of JVC</h2>
+            <h3 class="highlight">WHERE ELEGANCE MEETS PRACTICALITY.</h3>
+        </div>
+
+        <div class="contact-form">
+            <p>Speak To A Real Estate Specialist Today!</p>
+            <form action="https://formspree.io/f/xblojvyl" method="POST" class="contact-form" id="callbackForm">
+                <input type="text" id="name" name="name" placeholder="Name" required>
+                <input type="tel" id="phone" name="phone" placeholder="Phone" required>
+                <input type="email" id="email" name="_replyto" placeholder="Email" required=" ">
+                <button class='btn' type="submit">REQUEST A CALL BACK</button>
+            </form>
+            <p id="formMessage"></p>
+          </div>
+    </section>
+
+    <div id="modal" class="modal">
+      <div class="modal-content">
+          <span class="close">&times;</span>
+          <p id="modal-message">Processing.....</p>
+      </div>
+  </div>
+<!-- Выплывающее модальное окно -->
+<div class="modal-overlay" id="modal-two">
+  <div class="modal-pop">
+    <button class="close-btn" id="closeModal">✕</button>
+    <h2>Get Expert Guidance</h2>
+    <form action="https://formspree.io/f/xblojvyl" method="POST">
+      <input type="text" name="name" placeholder="Name" required />
+      <input type="email" name="email" placeholder="Email" required />
+      <input type="tel" name="phone" placeholder="Phone" required />
+      <textarea name="message" rows="4" placeholder="Message"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</div>
+<!-- Блок с инфо -->
+    <section class="project-details scroll-hidden delay-2">
+        <div class="details-container">
+            <div class="detail">
+                <h3>Starting From</h3>
+                <p>AED 666K</p>
+            </div>
+            <div class="detail">
+                <h3>Payment Plan</h3>
+                <p>50/50</p>
+            </div>
+          
+            <div class="detail">
+                <h3>Studio, 1 & 2</h3>
+                <p>apartmens</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок с 3 картинками -->
+    <section class="features-section">
+      <div class="card one scroll-hidden delay-3">
+        <img src="img/left.png" alt="Floating Meditation Deck">
+        <div class="card-content">
+          <h3>Floating Meditation Deck</h3>
+          <p>Imagine a serene, elevated platform suspended amidst nature, designed for mindfulness and connection with the elements.</p>
+        </div>
+      </div>
+    
+      <div class="card two scroll-hidden delay-4">
+        <img src="img/middle.png" alt="Mini Golf">
+        <div class="card-content">
+          <h3>Mini Golf</h3>
+          <p>Mini golf course, which makes this complex attractive for families and lovers of outdoor activities.</p>
+        </div>
+      </div>
+    
+      <div class="card three scroll-hidden delay-5">
+        <img src="img/right.png" alt="Rooftop Infinity Pool">
+        <div class="card-content">
+          <h3>Rooftop Infinity Pool</h3>
+          <p>Panoramic Views: Situated atop the building, the pool offers expansive views of the Dubai skyline, allowing residents to enjoy the city's beauty from a serene vantage point.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 1: Why Floarea Skies -->
+  <section class="why-floarea">
+    <div class="heading fade-in">
+      <div class="image-box fade-in">
+        <img src="img/image.png" alt="Floarea Skies Building" width="500"/>
+      </div>
+      <div class="context fade-in">
+        <h2>Why Floarea Skies?</h2>
+        <div class="feature">
+          <h3>Modern Living Spaces:</h3>
+          <ul>
+            <li>Fully furnished apartments</li>
+            <li>Studio, 1-bedroom, and 2-bedroom options</li>
+            <li>Built-in smart home system</li>
+          </ul>
+        </div>
+        <div class="feature">
+          <h3>Wellness & Lifestyle Amenities:</h3>
+          <ul>
+            <li>Rooftop Infinity Pool with skyline views</li>
+            <li>Floating meditation deck</li>
+            <li>Zen garden with Japanese landscaping</li>
+            <li>State-of-the-art fitness center</li>
+          </ul>
+        </div>
+        <div class="feature">
+          <h3>Eco-Conscious & Smart Design:</h3>
+          <ul>
+            <li>Sustainable building practices</li>
+            <li>Energy-efficient systems</li>
+            <li>Smart access and climate control</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 2: Gallery -->
+  <section class="gallery">
+    <h1 class="fade-in">Gallery</h1>
+    <p class="fade">Experience a sophisticated lifestyle in the Floarea Skies.</p>
+    <div class="grid scroll-hidden delay-6">
+      <div class="card-gal large item-1" style="background-image: url('img/masterbadroom.png');">
+        <div class="text">
+          <h2>Master Bedroom</h2>
+          <p>Serene Design</p>
+        </div>
+      </div>
+      <div class="card-gal item-2" style="background-image: url('img/comarea.png');">
+        <div class="text">
+          <h2>Community Areas</h2>
+          <p>Family Friendly Community</p>
+        </div>
+      </div>
+      <div class="card-gal item-3" style="background-image: url('img/livingroom.png');">
+        <div class="text">
+          <h2>Living Room</h2>
+          <p>Calm and refined Designs</p>
+        </div>
+      </div>
+      <div class="card-gal item-4" style="background-image: url('img/baf.png');">
+        <div class="text">
+          <h2>Bathroom</h2>
+          <p>Spa-like experience</p>
+        </div>
+        </div>
+      <div class="card-gal item-5" style="background-image: url('img/kitchen.png');">
+        <div class="text">
+          <h2>Kitchen Area</h2>
+          <p>Kitchen as art</p>
+        </div>
+      </div>
+      <div class="card-gal wide item-6" style="background-image: url('img/poll.png');">
+        <div class="text">
+          <h2>Organic Pool</h2>
+          <p>Relaxation area</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Блок с инфой -->
+      <section class="info-section">
+        <div class="info-container">
+            <div class="info-item one scroll-hidden delay-7">
+                <h2>10 mins</h2>
+                <p>Emirates Road</p>
+            </div>
+            <div class="info-item two scroll-hidden delay-8">
+                <h2>15 mins</h2>
+                <p>Mall of the Emirates</p>
+            </div>
+            <div class="info-item three scroll-hidden delay-9">
+                <h2>25 mins</h2>
+                <p>Downtown Dubai</p>
+            </div>
+            <div class="info-item four scroll-hidden delay-10">
+                <h2>15 mins</h2>
+                <p>Dubai Marina</p>
+            </div>
+        </div>
+    </section>
+    <section class="map-section scroll-hidden delay-11">
+        <h2 class="heaad">Location of FLOAREA SKIES</h2>  
+        <div class="map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d284336.77947275643!2d55.13634362870113!3d25.182111022045294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6d69cad9084f%3A0x2f7a33c95f01ba09!2sFloarea%20Skies%20by%20Mashriq%20Elite%20Developments!5e1!3m2!1sen!2sae!4v1744875171624!5m2!1sen!2sae" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </div>
+    </section>
+    <div class="custom-body">
+    <div id="contai">
+      <h1 class="hdn">Get Expert Guidance</h1>
+      <p class="hdn">Fill in your details, and our experts will 
+        reach out with personalised recommendations.</p>
+      <form action="https://formspree.io/f/xblojvyl?language=en" method="POST" data-honeypot="bot-field" data-next="https://yourwebsite.com/thank-you" class="contact-form" id="callbackForm">
+          <input type="text" name="name" placeholder="Name" required>
+          <input type="tel" name="phone" placeholder="Phone" required>
+          <input type="email" name="email" placeholder="Email" required>
+          <button  class="submit">SUBMIT</button>
+      </form>
+  </div>
+</div>
+<div class="contact-section">
+  <h2>CONTACT NOW FOR MORE DETAILS</h2>
+  <img src="img/logoS.png" alt="logo" class="SElogo">
+</div>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+</body>
+</html>
